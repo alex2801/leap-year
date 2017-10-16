@@ -13,8 +13,8 @@ $(document).ready(function() {
 		} else {
 			$(".not").empty();
 		}
-		$(":input").val(""); // empty the form's values
-		$("#result").show(); // show the result
+		$(":input").val("");
+		$("#result").show();
 		event.preventDefault();
 	});
 });
